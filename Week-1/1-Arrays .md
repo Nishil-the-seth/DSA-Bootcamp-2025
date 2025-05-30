@@ -1,4 +1,4 @@
-**Arrays**
+# **Arrays**
 
 An array is one of the simplest and most fundamental data structures in programming. It stores a fixed-size collection of elements of the same type (e.g., integers, strings) in contiguous memory locations.
 
