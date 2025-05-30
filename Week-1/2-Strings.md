@@ -1,4 +1,4 @@
-**Strings** 
+# **Strings** 
 
 Strings are sequences of characters used to represent text.  
 Unlike character arrays, strings end with a special '\\0' character in some languages like C.  
