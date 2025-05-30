@@ -213,19 +213,19 @@ To solve the problem, we first sort the array values in increasing order. After 
 
 For example, consider the following array and a target sum x \= 12:
 
-![](src/1.png)
+![](src/img1.png)
 
 The initial positions of the pointers are as follows. The sum of the values is 1 \+ 10 \= 11 that is smaller than x.
 
-![](src/2.png)
+![](src/img2.png)
 
 Then the left pointer moves one step to the right. The right pointer moves three steps to the left, and the sum becomes 4+7 \= 11\.
 
-![](src/3.png)
+![](src/img3.png)
 
 After this, the left pointer moves one step to the right again. The right pointer does not move, and a solution 5+7 \= 12 has been found.
 
-![](src/4.png)
+![](src/img4.png)
 
 This can be implemented in C++ in the following way:
 
