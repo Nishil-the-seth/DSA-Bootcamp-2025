@@ -147,17 +147,17 @@ This includes the space required for dynamic memory allocation, recursive stack 
 
 We are taking here the example of an iterative algorithm. The algorithm is to find the maximum element in an array.
 
-def find\_max(arr):
+def find_max(arr):
 
-    max\_val \= arr\[0\]
+    max_val = arr[0]
 
     for i in range(1, len(arr)):
 
-        if arr\[i\] \> max\_val:
+        if arr[i] > max_val:
 
-            max\_val \= arr\[i\]
+            max_val = arr[i]
 
-    return max\_val
+    return max_val
 
 #### **Fixed Part:**
 
