@@ -18,14 +18,20 @@ An array is one of the simplest and most fundamental data structures in programm
 
   We must also use a command to write myFruits\[0\] to the console/terminal, so that we can actually see the result, and that is done a little different depending on the programming language.
 
-  * Python:  
-    myFruits \= \['banana','apple','orange'\]  
+  * Python:
+    
+    myFruits \= \['banana','apple','orange'\]
+     
     print(myFruits\[0\])  
-  * C++:  
-    string myFruits\[\] \= {"banana","apple","orange"};  
+  * C++:
+    
+    string myFruits\[\] \= {"banana","apple","orange"};
+    
     cout \<\< myFruits\[0\];  
-  * Javascript:  
-    const myFruits \= \['banana','apple','orange'\];  
+  * Javascript:
+     
+    const myFruits \= \['banana','apple','orange'\];
+    
     console.log(myFruits\[0\]);
 
 * ## Updating
@@ -88,14 +94,20 @@ An array is one of the simplest and most fundamental data structures in programm
 
   A value can also be added to a specific position in an array, using the index, like this:
 
-  * Python   
-    myFruits \= \['banana','apple','orange'\]  
+  * Python:
+    
+    myFruits \= \['banana','apple','orange'\]
+    
     myFruits.insert(1,'kiwi')  
-  * C++  
-    vector\<string\> myFruits \= {"banana", "apple", "orange"};  
+  * C++:
+    
+    vector\<string\> myFruits \= {"banana", "apple", "orange"};
+      
     myFruits.insert(myFruits.begin() \+ 1, "kiwi");  
-  * Javascript  
-    const myFruits \= \['banana','apple','orange'\];  
+  * Javascript:
+    
+    const myFruits \= \['banana','apple','orange'\];
+    
     myFruits.splice(1,0,'kiwi');
 
 * ## Deletion
@@ -180,21 +192,14 @@ Here are a few algorithms which are useful in solving questions related to array
 
 It can be done in the following way:
 
-int linearSearch(int arr\[\], int size, int target) {
-
-    for (int i \= 0; i \< size; i++) {
-
-        if (arr\[i\] \== target) {
-
-            return i;
-
-        }
-
-    }
-
-    return \-1;
-
-}
+        int linearSearch(int arr[], int size, int target) {
+               for (int i = 0; i < size; i++) {
+                    if (arr[i] == target) {
+                        return i;
+                    }
+                }
+                return -1;
+             }
 
 ## **Two pointer method**
 
@@ -224,74 +229,55 @@ After this, the left pointer moves one step to the right again. The right pointe
 
 This can be implemented in C++ in the following way:
 
-\#include \<iostream\>
 
-\#include \<vector\>
+    #include <iostream>
+    #include <vector>
+    #include <algorithm>
+    using namespace std;
 
-\#include \<algorithm\>
-
-using namespace std;
-
-// Function to check whether any pair exists
-
-// whose sum is equal to the given target value
-
-bool twoSum(vector\<int\> \&arr, int target){
-
-
+    bool twoSum(vector<int> &arr, int target){
     // Sort the array
-
+    
     sort(arr.begin(), arr.end());
-
-    int left \= 0, right \= arr.size() \- 1;
+    int left = 0, right = arr.size() - 1;
 
     // Iterate while left pointer is less than right
 
-    while (left \< right){
-
-        int sum \= arr\[left\] \+ arr\[right\];
+    while (left < right){
+        int sum = arr[left] + arr[right];
 
         // Check if the sum matches the target
-
-        if (sum \== target)
-
+        if (sum == target)
             return true;
 
-        else if (sum \< target)
-
+        else if (sum < target)
             left++; // Move left pointer to the right
 
         else
-
             right--; // Move right pointer to the left
 
     }
 
     // If no pair is found
-
+    
     return false;
 
-}
+    }
 
-int main(){
-
-    vector\<int\> arr \= {0, \-1, 2, \-3, 1};
-
-    int target \= \-2;
-
-    // Call the twoSum function and print the result
-
-    if (twoSum(arr, target))
-
-        cout \<\< "true";
-
-    else
-
-        cout \<\< "false";
-
-    return 0;
-
-}
+    int main(){
+   
+       vector<int> arr = {0, -1, 2, -3, 1};
+   
+       int target = -2;
+   
+       if (twoSum(arr, target))
+           cout << "true";
+       else
+           cout << "false";
+           
+       return 0;
+   
+    }
 
 The running time of the algorithm is O(nlogn), because it first sorts the array in O(nlogn) time, and then both pointers move O(n) steps.
 
@@ -304,26 +290,22 @@ We have seen in linear search that in the worst case, the code runs in O(n) time
 The usual way to implement binary search resembles looking for a word in a dictionary. The search maintains an active region in the array, which initially contains all array elements. Then, a number of steps is performed, each of which halves the size of the region. At each step, the search checks the middle element of the active region. If the middle element is the target element, the search terminates. Otherwise, the search recursively continues to the left or right half of the region, depending on the value of the middle element.
 
 The above idea can be implemented as follows:
+      
+      int a = 0, b = n-1;
+      
+      while (a <= b) {
+         int k = (a+b)/2;
+         
+         if (array[k] == x) {
+         // x found at index k 
+         }
+         
+         if (array[k] > x) b = k-1;
+         else a = k+1;
+         
+      }
 
-int a \= 0, b \= n-1;
-
-while (a \<= b) {
-
-int k \= (a+b)/2;
-
-if (array\[k\] \== x) {
-
-// x found at index k
-
-}
-
-if (array\[k\] \> x) b \= k-1;
-
-else a \= k+1;
-
-}
-
-In this implementation, the active region is a...b, and initially the region is 0...n¡1. The algorithm halves the size of the region at each step, so the time complexity is O(logn).
+In this implementation, the active region is a...b, and initially the region is 0...n-1. The algorithm halves the size of the region at each step, so the time complexity is O(logn).
 
 To learn more:
 
