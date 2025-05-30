@@ -4,7 +4,7 @@
 
 Asymptotic Notation in Data Structure is a way to describe how the time or space needed by an algorithm grows as the size of the input grows. It helps us understand how efficient an algorithm is when we have very large inputs.
 
-Imagine you have different ways to solve a problem, like [sorting](https://www.wscubetech.com/resources/dsa/sorting-algorithms) a list of numbers. Some ways are fast when the list is short, but they might become very slow when the list is long. Asymptotic notation helps us compare these methods by focusing on how they perform when the input size gets really big.
+Imagine you have different ways to solve a problem, like sorting a list of numbers. Some ways are fast when the list is short, but they might become very slow when the list is long. Asymptotic notation helps us compare these methods by focusing on how they perform when the input size gets really big.
 
 In simple terms, asymptotic notation helps us predict how an algorithm will perform and make better choices when writing programs.
 
@@ -54,7 +54,7 @@ Theta notation focuses on the typical running time of an algorithm. It shows tha
 
 ### **1\. Constant Time: O(1)**
 
-An [**algorithm**](https://www.wscubetech.com/resources/dsa/algorithm) is said to have a constant time complexity when the time to complete does not depend on the size of the input data. This is the ideal scenario for any operation. 
+An algorithm is said to have a constant time complexity when the time to complete does not depend on the size of the input data. This is the ideal scenario for any operation. 
 
 #### **Examples:** 
 
@@ -76,14 +76,14 @@ An algorithm is said to have linear time complexity when the time to complete is
 
 #### **Examples:**
 
-* Scanning an [**array**](https://www.wscubetech.com/resources/dsa/array-data-structure) or a [**linked list**](https://www.wscubetech.com/resources/dsa/linked-list-data-structure) from start to finish  
+* Scanning an array or a linked list from start to finish  
 * Suppose you need to check if a book exists in the library, and the books are not in any particular order. You would potentially have to check each book until you find the one you're looking for or confirm it’s not there. The time it takes to complete this task grows linearly with the number of books.
 
 ### **4\. Linearithmic Time: O(n log n)**
 
-This complexity arises when an algorithm performs a logarithmic operation (like [divide and conquer](https://www.wscubetech.com/resources/dsa/divide-and-conquer-algorithm)) multiple times linearly across the data set. Common [sorting algorithms](https://www.wscubetech.com/resources/dsa/sorting-algorithms) like [mergesort](https://www.wscubetech.com/resources/dsa/merge-sort) and [heapsort](https://www.wscubetech.com/resources/dsa/heap-sort) exhibit linearithmic time complexity. 
+This complexity arises when an algorithm performs a logarithmic operation (like divide and conquer multiple times linearly across the data set. Common sorting algorithms like mergesort and heapsort exhibit linearithmic time complexity. 
 
-They are highly efficient for large datasets and are preferred over simpler sorting methods like [bubble sort](https://www.wscubetech.com/resources/dsa/bubble-sort).
+They are highly efficient for large datasets and are preferred over simpler sorting methods like bubble sort.
 
 ### **5\. Quadratic Time: O(n²)**
 
@@ -102,7 +102,7 @@ Cubic time complexity appears in algorithms involving three nested loops. This i
 
 Algorithms with exponential time complexities double the amount of work with every additional element in the input data. 
 
-These are usually seen in brute-force solutions of complex problems, like calculating the Fibonacci sequence using a naive recursive approach or solving the [traveling salesman problem](https://www.wscubetech.com/resources/dsa/travelling-salesman-problem) through all permutations of cities.
+These are usually seen in brute-force solutions of complex problems, like calculating the Fibonacci sequence using a naive recursive approach or solving the traveling salesman problem through all permutations of cities.
 
 ### **8\. Factorial Time: O(n\!)**
 
@@ -139,25 +139,24 @@ This includes the space required for dynamic memory allocation, recursive stack 
 
 #### **Examples:**
 
-* Space needed for dynamic data structures like [**linked lists**](https://www.wscubetech.com/resources/dsa/linked-list-data-structure), [**trees**](https://www.wscubetech.com/resources/dsa/tree-data-structure), or [**graphs**](https://www.wscubetech.com/resources/dsa/graph-data-structure), which grow with the input size.  
+* Space needed for dynamic data structures like linked lists, trees, or graphs, which grow with the input size.  
 * Memory used for the recursion stack during recursive function calls.  
-* Temporary variables and data structures used during the execution of the [**algorithm**](https://www.wscubetech.com/resources/dsa/algorithm).
+* Temporary variables and data structures used during the execution of the algorithm.
 
 ### **3\. Example Calculation**
 
 We are taking here the example of an iterative algorithm. The algorithm is to find the maximum element in an array.
 
-def find_max(arr):
-
-    max_val = arr[0]
-
-    for i in range(1, len(arr)):
-
-        if arr[i] > max_val:
-
-            max_val = arr[i]
-
-    return max_val
+    def find_max(arr):
+        max_val = arr[0]
+    
+        for i in range(1, len(arr)):
+    
+            if arr[i] > max_val:
+    
+                max_val = arr[i]
+    
+        return max_val
 
 #### **Fixed Part:**
 
