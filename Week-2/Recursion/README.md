@@ -46,6 +46,7 @@ The process in which a function calls itself directly or indirectly is called re
 * A recursive algorithm takes one step toward solution and then recursively calls itself to further move. The algorithm stops once we reach the solution.
 * Since the called function may further call itself, this process might continue forever. So it is essential to provide a base case to terminate this recursion process.
 
+---
 
 # Comparison of Recursive and Iterative Approaches
 
@@ -77,7 +78,7 @@ The process in which a function calls itself directly or indirectly is called re
   </tr>
 </table>
 
-
+---
 
 # Need of Recursion?
 
@@ -87,11 +88,13 @@ The process in which a function calls itself directly or indirectly is called re
 * Recursive solutions work as a basis for Dynamic Programming and Divide and Conquer algorithms.
 * Certain problems can be solved quite easily using recursion like Towers of Hanoi (TOH), Inorder/Preorder/Postorder Tree Traversals, DFS of Graph, etc.
 
+---
 
 # Base condition
 
 A recursive program stops at a base condition. There can be more than one base condition in a recursion. If the base case is not reached or not defined, then the stack overflow problem may arise. 
 
+---
 
 # Direct and indirect recursion
 
@@ -99,6 +102,7 @@ A function is called direct recursive if it calls itself directly during its exe
 
 An indirect recursive function is one that calls another function, and that other function, in turn, calls the original function either directly or through other functions. This creates a chain of recursive calls involving multiple functions, as opposed to direct recursion, where a function calls itself.
 
+---
 
 # Example
 
@@ -206,7 +210,7 @@ for i in range(0,n):
     print(fib(i),end=" ")
 ```
 
-
+---
 
 # Memoization
 
@@ -227,6 +231,7 @@ Using recursion, solving F(n) involves repeatedly breaking the problem into smal
 
 Without memoization, the time complexity of finding the nth Fibonacci number using recursion is O(2^n), as the function repeatedly solves overlapping subproblems, creating an exponential number of recursive calls. For instance, F(3) and F(2) are recalculated multiple times when computing F(5), leading to inefficiency. With memoization, the time complexity reduces to O(n) because each Fibonacci number is computed only once and stored for reuse. This eliminates redundant computations and ensures a linear traversal from F(0) and F(n), significantly improving performance.
 
+---
 
 # Resources
 
@@ -236,6 +241,7 @@ Here are some resources to help you understand and implement recursion:
 
 [Recursive Algorithms | GeeksforGeeks](https://www.geeksforgeeks.org/recursion-algorithms/)
 
+---
 
 # Practice Problems
 
