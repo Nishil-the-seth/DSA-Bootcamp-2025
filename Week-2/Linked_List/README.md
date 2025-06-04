@@ -57,7 +57,7 @@ Unlike arrays, where elements are stored in **contiguous memory**, in a linked l
 
 2. **Pointer/Link** – A reference to the **next node** (and optionally the previous node). \
 
-
+---
 
 # Types of Linked Lists
 
@@ -108,7 +108,7 @@ Unlike arrays, where elements are stored in **contiguous memory**, in a linked l
 ![alt_text](images/image4.png "image_tooltip")
 
 
-
+---
 
 # Creating a Linked List
 
@@ -197,6 +197,7 @@ If the list is not empty, we need to traverse the list to find the last node and
 
 You should be able to implement a linked list now. Using the above steps you can create doubly and circular linked lists as well. Make sure to free the memory which has been dynamically allocated after you are done with the linked lists. If you have any doubts, you can refer to this [How to create linked list? | GeeksforGeeks](https://www.geeksforgeeks.org/how-to-create-linked-list/). 
 
+---
 
 # Traversal
 
@@ -215,6 +216,7 @@ You should be able to implement a linked list now. Using the above steps you can
 
 Try implementing it on your own. If you face any difficulty, you can refer to this [Traversal of Singly Linked List | GeeksforGeeks](https://www.geeksforgeeks.org/traversal-of-singly-linked-list/). The implementation for doubly and circular linked lists are similar to this.
 
+---
 
 # Inserting a Node
 
@@ -255,6 +257,7 @@ Inserting at the end involves traversing the entire list until we reach the last
 
 Try this out yourself. If you face any difficulty, you can refer to this [Insertion in Linked List | GeeksforGeeks](https://www.geeksforgeeks.org/insertion-in-linked-list/). 
 
+---
 
 # Deleting a Node
 
@@ -296,6 +299,7 @@ Types of Deletion in Linked List
 * Update the next pointer of the second-last node: Set the second-last node’s next to NULL (removing the link to the last node).
 * Delete the last node: The last node is now unreferenced and can be deleted or freed, depending on the language used.
 
+---
 
 # Resources
 
@@ -311,6 +315,7 @@ Here are some resources to help you understand and implement linked lists:
 
 [Introduction to Circular Linked List | GeeksforGeeks](https://www.geeksforgeeks.org/circular-linked-list/)
 
+---
 
 # Practice Problems
 
