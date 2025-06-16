@@ -106,8 +106,30 @@ How it Works
 
 **Here’s an example (in python):**
 
-| \# Creating a HashMaphashmap \= {}\# Inserting key-value pairshashmap\["apple"\] \= 3hashmap\["banana"\] \= 5hashmap\["orange"\] \= 2\# Accessing a valueprint(hashmap\["banana"\])  \# Output: 5\# Checking if a key existsif "apple" in hashmap:    print("Apple is present.")\# Deleting a keydel hashmap\["orange"\]\# Iterating through keys and valuesfor key, value in hashmap.items():    print(f"{key}: {value}") |
-| :---- |
+```python
+# Creating a HashMap
+hashmap = {}
+
+# Inserting key-value pairs
+hashmap["apple"] = 3
+hashmap["banana"] = 5
+hashmap["orange"] = 2
+
+# Accessing a value
+print(hashmap["banana"])  # Output: 5
+
+# Checking if a key exists
+if "apple" in hashmap:
+    print("Apple is present.")
+
+# Deleting a key
+del hashmap["orange"]
+
+# Iterating through keys and values
+for key, value in hashmap.items():
+    print(f"{key}: {value}")
+```
+
 
 # Index Mapping
 
@@ -122,8 +144,57 @@ To search any element *x* in the array.
 
 **Implementing this in C++:**
 
-| \#include \<bits/stdc++.h\>using namespace std;\#define MAX 1000// Since array is global, it is initialized as 0\.bool has\[MAX \+ 1\]\[2\];// searching if X is Present in the given array // or not.bool search(int X){    if (X \>= 0) {        if (has\[X\]\[0\] \== 1)            return true;        else            return false;    }    // if X is negative take the absolute     // value of X.    X \= abs(X);    if (has\[X\]\[1\] \== 1)        return true;    return false;}void insert(int a\[\], int n){    for (int i \= 0; i \< n; i++) {        if (a\[i\] \>= 0)             has\[a\[i\]\]\[0\] \= 1;       else            has\[abs(a\[i\])\]\[1\] \= 1;    }}// Driver codeint main(){    int a\[\] \= { \-1, 9, \-5, \-8, \-5, \-2 };    int n \= sizeof(a)/sizeof(a\[0\]);    insert(a, n);    int X \= \-5;    if (search(X) \== true)       cout \<\< "Present";     else       cout \<\< "Not Present";    return 0;} |
-| :---- |
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+#define MAX 1000
+
+// Since array is global, it is initialized as 0.
+bool has[MAX + 1][2];
+
+// Searching if X is present in the given array or not.
+bool search(int X)
+{
+    if (X >= 0) {
+        if (has[X][0] == 1)
+            return true;
+        else
+            return false;
+    }
+
+    // If X is negative take the absolute value of X.
+    X = abs(X);
+    if (has[X][1] == 1)
+        return true;
+
+    return false;
+}
+
+void insert(int a[], int n)
+{
+    for (int i = 0; i < n; i++) {
+        if (a[i] >= 0)
+            has[a[i]][0] = 1;
+        else
+            has[abs(a[i])][1] = 1;
+    }
+}
+
+// Driver code
+int main()
+{
+    int a[] = { -1, 9, -5, -8, -5, -2 };
+    int n = sizeof(a)/sizeof(a[0]);
+    insert(a, n);
+    int X = -5;
+    if (search(X) == true)
+        cout << "Present";
+    else
+        cout << "Not Present";
+    return 0;
+}
+```
+
 
 It is similar in Python and Javascript. You can check it out here; [https://www.geeksforgeeks.org/index-mapping-or-trivial-hashing-with-negatives-allowed/](https://www.geeksforgeeks.org/index-mapping-or-trivial-hashing-with-negatives-allowed/)
 
