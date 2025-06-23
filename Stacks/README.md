@@ -27,31 +27,30 @@ Here you can visualise these operations:
 1. **Fixed size stack**\- stack has a fixed size and cannot grow or shrink dynamically.  
 2. **Dynamic size stack**\- stack can grow or shrink dynamically.  
    
-
 # **Implementation of stack**
 
 ## Using array
 
 Step 1:
 
-## ![][image1]
+## ![Step 1](src/image1)
 
 Step 2:
 
-![][image2]  
+![Step 2](src/image2)  
 Step 3:  
-			       ![][image3]  
+		       ![Step 3](src/image3)  
 Step 4:  
-![][image4]  
+![Step 4](src/image4)  
 Step 5:   
-![][image5]  
+![Step 5](src/image5)  
 Step 6:   
-![][image6]
+![Step 6](src/image6)
 
 ## Using Linked list
 
-![][image7]  
-![][image8]
+![Step LL1](src/image7)  
+![Step LL2](src/image8)
 
 Here is the code in python for reference: [https://www.geeksforgeeks.org/stack-in-python/](https://www.geeksforgeeks.org/stack-in-python/)   
 Here is the code in C++ for reference: [https://www.geeksforgeeks.org/stack-in-cpp-stl/](https://www.geeksforgeeks.org/stack-in-cpp-stl/)   
@@ -61,22 +60,29 @@ Here is the code in javascript for reference: [https://www.geeksforgeeks.org/imp
 
 A doubly ended queue or deque allows insertion and deletion at both ends. In a stack, we need to do insertions and deletions at one end only. We can use either end of deque (front or back) to implement a stack.
 
-![][image9]
+![Deque Illustration](src/image9)
+
 
 # **Declaration of stack**
 
 ## In C++
 
-![][image10]  
-You can replace int with other types, like float, char, double, etc.
+```cpp
+std::stack<int> myStack;
+// You can replace int with other types, like float, char, double, etc.
+```
 
 ## In python
 
-![][image11]
+```python
+stack = []
+```
 
 ## In javascript
 
-![][image12]
+```javascript
+let stack = [];
+```
 
 # **Basic operation on stack**
 
@@ -84,19 +90,33 @@ You can replace int with other types, like float, char, double, etc.
 
    ### Inserting element
 
-   ![][image13]
+   ```cpp
+   myStack.push(10);
+   ```
 
    ### Accessing element
 
-   ![][image14]
+   ```cpp
+   myStack.top();
+   ```
 
 ### Deleting element
 
-![][image15]
+```cpp
+myStack.pop();
+```
 
 ### Pseudo traversal 
 
-	![][image16]
+```cpp
+// Create a copy
+stack<int> temp(myStack);
+
+while (!temp.empty()) {
+    cout << temp.top() << " ";
+    temp.pop();
+}
+```
 
 | Operation | Time Complexity |
 | :---: | :---: |
@@ -111,41 +131,57 @@ To learn in more depth refer to: [https://www.geeksforgeeks.org/stack-in-cpp-stl
 
    ### Inserting element
 
-   ![][image17]
+   ```python
+   myStack.append(10)
+   ```
 
    ### Accessing element
 
-	![][image18]
+```python
+myStack[-1]  # Peeks at the top element without removing it
+```
 
 ### Deleting element 
 
-	![][image19]
+```python
+myStack.pop()
+```
 
 ### Size of stack
 
-	![][image20]  
-	  
-	To learn in more depth refer to:    [https://www.geeksforgeeks.org/stack-in-python/](https://www.geeksforgeeks.org/stack-in-python/)   
-	
+```python
+len(myStack)
+```  
+
+To learn in more depth refer to: [https://www.geeksforgeeks.org/stack-in-python/](https://www.geeksforgeeks.org/stack-in-python/)   
 
 3. ## In javascript
 
-### 	Push operation 
+### Push operation 
 
-	![][image21]
+```javascript
+myStack.push(10);
+```
 
 ### Pop operation 
 
-	![][image22]
+```javascript
+myStack.pop();
+```
 
 ### Peek 
 
-	![][image23]
+```javascript
+myStack[myStack.length - 1];
+```
 
 ### Size
 
-	![][image24]  
-To learn more in depth refer to: [https://www.geeksforgeeks.org/implementation-stack-javascript/](https://www.geeksforgeeks.org/implementation-stack-javascript/) 
+```javascript
+myStack.length;
+```
+
+To learn more in depth refer to: [https://www.geeksforgeeks.org/implementation-stack-javascript/](https://www.geeksforgeeks.org/implementation-stack-javascript/)
 
 # **Resources** 
 
