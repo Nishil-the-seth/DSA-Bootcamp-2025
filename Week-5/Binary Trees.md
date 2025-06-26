@@ -413,8 +413,35 @@ int main() {
 }
 ```
 
+Here are some useful binary tree problems that you can practice:
 
+---
 
+### Easy
 
+- [Same Tree](https://leetcode.com/problems/same-tree/description/)
+- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+- [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
+- [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+- [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
+- [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
+
+---
+
+### Medium
+
+- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
+- [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
+- [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
+- [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)
+- [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+
+---
+
+### Hard
+- [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
+- [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)
+- [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/)
 
 
