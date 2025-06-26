@@ -183,4 +183,12 @@ int main() {
 Inorder before deletion: 20 30 40 50 60 70 80
 Inorder after deletion: 20 30 40 50 60 80
 ```
+- [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
+- [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
+- [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
+- [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
+- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
+- [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
+- [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/)
 
