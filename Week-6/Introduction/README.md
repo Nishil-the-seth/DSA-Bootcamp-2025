@@ -164,7 +164,7 @@ Involving pattern matching or transformations.
 ---
 
 This week we shall only look at a few of these algorithms.
-- ![Climbing Stairs](../Climbing%20Stairs)
-- ![0/1 Knapsack](../0%5C1%20Knapsack)
-- ![Longest Common Subsequence (LCS)](../Longest%20Common%20Subsequence)
-- ![Matrix Chain Multiplication](../Matrix%20Chain%20Multiplication)
+- [Climbing Stairs](../Climbing%20Stairs)
+- [0/1 Knapsack](../0%5C1%20Knapsack)
+- [Longest Common Subsequence (LCS)](../Longest%20Common%20Subsequence)
+- [Matrix Chain Multiplication](../Matrix%20Chain%20Multiplication)
