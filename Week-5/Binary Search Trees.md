@@ -265,14 +265,40 @@ Time Complexity: O(n), since we traversed through all the elements in a BST.
 Auxiliary Space: O(n), we are storing all the n nodes in an array.
 
 
+# Problems
 
+## Easy
+[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)  
+- [Solution](https://leetcode.com/problems/range-sum-of-bst/description/)
+[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)  
+- [Solution](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)  
+- [Solution](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
+[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)  
+- [Solution](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
+[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)  
+- [Solution](https://leetcode.com/problems/validate-binary-search-tree/description/)
+[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/find-mode-in-binary-search-tree?envType=problem-list-v2&envId=binary-tree)
+[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/minimum-absolute-difference-in-bst?envType=problem-list-v2&envId=binary-tree)
 
-- [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
-- [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
-- [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
-- [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/)
-- [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
-- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/)
-- [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
-- [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/description/)
+## Medium
+[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)  
+- [Solution](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
+[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/trim-a-binary-search-tree?envType=problem-list-v2&envId=binary-tree)
+[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/two-sum-iv-input-is-a-bst?envType=problem-list-v2&envId=binary-tree)
+[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/?envType=problem-list-v2&envId=binary-tree)
+[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/delete-node-in-a-bst?envType=problem-list-v2&envId=binary-tree)
+
+## Hard
+[Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)  
+- [Solution](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)
+[Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst?envType=problem-list-v2&envId=binary-tree)  
+- [Solution](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst?envType=problem-list-v2&envId=binary-tree)
+
 
