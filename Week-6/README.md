@@ -1,6 +1,6 @@
 # Week 6: Dynamic Programming
 
-Welcome to Week 6 of the DSA Bootcamp 2025! After covering foundational topics like recursion and iterative problem solving, it's time to explore one of the most important concepts in algorithmic problem-solving: Dynamic Programming (DP).
+Welcome to Week 6 of the DSA Bootcamp 2025! After covering foundational topics like recursion and iterative problem solving, it's time to explore one of the most important concepts in algorithmic problem-solving: **Dynamic Programming (DP)**.
 
 This week, we will focus on understanding, identifying, and applying DP techniques to solve complex problems efficiently.
 
@@ -9,53 +9,44 @@ This week, we will focus on understanding, identifying, and applying DP techniqu
 ## Topics Covered
 
 ### Introduction to Dynamic Programming
-We’ll begin by understanding what makes a problem suitable for DP:
-- Overlapping subproblems
-- Optimal substructure
+We’ll begin by understanding what makes a problem suitable for DP. We’ll explore how DP evolves from naive recursion and how to optimize both time and space.
 
-You will learn two main approaches:
-- Top-Down (Memoization)
-- Bottom-Up (Tabulation)
-
-We'll explore how DP evolves from naive recursion and how to optimize both time and space.
+**Start here**: [Introduction](./Introduction)
 
 ---
 
-### Classic Problems
-We will tackle some well-known DP problems, which will help you recognize patterns and apply them:
-- Fibonacci Number Variants
-- 0/1 Knapsack
-- Subset Sum / Equal Partition
-- Longest Common Subsequence (LCS)
-- Longest Increasing Subsequence (LIS)
+## Core DP Algorithms (Increasing Difficulty)
 
-For each problem, you'll:
-- Derive the recurrence relation
-- Visualize the state space
-- Implement both memoization and tabulation versions
+This week focuses on 4 carefully selected DP problems:
 
----
+1. **Climbing Stairs** — Intro to DP and recurrence  
+   [Climbing Stairs Folder](./Climbing%20Stairs)
 
-### Patterns and Optimization
-You'll also learn:
-- Common DP problem patterns (like DP on subsequences, on grids, on partitions)
-- When and how to use state compression to reduce space complexity
-- Techniques for converting recursive solutions into iterative DP
+2. **0/1 Knapsack** — Classic decision-making DP  
+   [0/1 Knapsack Folder](./0%5C1%20Knapsack)
+
+3. **Longest Common Subsequence (LCS)** — 2D state transition  
+   [Longest Common Subsequence Folder](./Longest%20Common%20Subsequence)
+
+4. **Matrix Chain Multiplication** — Interval DP and optimization  
+   [Matrix Chain Multiplication Folder](./Matrix%20Chain%20Multiplication)
 
 ---
 
-## Practice
-You will be solving selected LeetCode problems that reinforce the concepts discussed:
-- Focus on building intuition behind the recurrence
-- Write clean, structured DP solutions
-- Learn to debug edge cases and optimize for constraints
+## Practice Problems
+
+Head over to the [Practice Folder](./Practice) for curated problems that reinforce the above algorithms.
+
+---
+
+## Additional Resources
+
+Supplementary resources are in the [Resources Folder](./Resources).
 
 ---
 
 ## Final Notes
-Dynamic Programming is a topic that often requires multiple passes for complete mastery. If it feels hard at first, that's normal — the key is to keep practicing and revisiting concepts until they click.
 
-Use this week to build your foundation. The techniques you'll learn here will carry over into advanced algorithms and interview-level questions.
+Dynamic Programming is challenging because it requires deep pattern recognition and clear thought about subproblem structure. If it feels difficult — you’re doing it right.
 
-Stay consistent, focus on patterns, and make sure to reflect after solving each problem.
-
+Good luck, and code smart.
