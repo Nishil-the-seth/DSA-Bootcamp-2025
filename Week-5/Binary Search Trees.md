@@ -54,6 +54,10 @@ Node* insert(Node* root, int key) {
     return root;
 }
 ```
+Time Complexity: 
+
+The worst-case time complexity of insert operations is O(h) where h is the height of the Binary Search Tree. 
+In the worst case, we may have to travel from the root to the deepest leaf node. The height of a skewed tree may become n and the time complexity of insertion operation may become O(n). 
 
 ---
 
@@ -79,6 +83,8 @@ bool search(Node* root, int key) {
         return search(root->right, key);
 }
 ```
+Time complexity: O(h), where h is the height of the BST.
+Auxiliary Space: O(h) This is because of the space needed to store the recursion stack.
 
 ---
 
@@ -125,26 +131,19 @@ Node* deleteNode(Node* root, int key) {
     return root;
 }
 ```
+Time Complexity: O(h), where h is the height of the BST. 
+Auxiliary Space: O(h).
 
 ---
 
 ## Traversals
 
-BSTs can be traversed in several ways. The most common ones include:
+BSTs can be traversed in the same ways as Binary Trees:
 
 - **Inorder Traversal**: Visits nodes in sorted order (left → root → right). Very useful for extracting sorted data from a BST.
 - **Preorder Traversal**: Visits nodes in the order (root → left → right), helpful for creating a copy of the tree.
 - **Postorder Traversal**: Visits nodes in the order (left → right → root), useful for deleting or freeing the tree.
 - **Level Order Traversal**: Visits nodes level by level using a queue.
-
-```cpp
-void inorder(Node* root) {
-    if (!root) return;
-    inorder(root->left);
-    cout << root->data << " ";
-    inorder(root->right);
-}
-```
 
 ---
 
@@ -183,6 +182,91 @@ int main() {
 Inorder before deletion: 20 30 40 50 60 70 80
 Inorder after deletion: 20 30 40 50 60 80
 ```
+
+Here is an other example where we find the minimum of a BST with the help of inorder traversal:
+
+```cpp
+// C++ code to find minimum value in BST
+// using inorder traversal
+#include <bits/stdc++.h>
+using namespace std;
+
+struct Node {
+    int data;
+    Node *left, *right;
+
+    Node(int val) {
+        data = val;
+        left = right = nullptr;
+    }
+};
+
+// Recursive function to solve and store elements 
+// in a vector
+void inorder(Node* root, vector<int>& sortedInorder) {
+  
+    // Base Case
+    if (root == nullptr) return;
+
+    // Traverse left subtree
+    inorder(root->left, sortedInorder);
+
+    // Store the current node's data
+    sortedInorder.push_back(root->data);
+
+    // Traverse right subtree
+    inorder(root->right, sortedInorder);
+}
+
+// Function to find the minimum value in BST
+int minValue(Node* root) {
+    if (root == nullptr) {
+        return -1;
+    }
+    
+    vector<int> sortedInorder;
+    
+    // Call the recursive inorder function
+    inorder(root, sortedInorder);
+    
+    // Return the first element, which is the minimum
+    return sortedInorder[0];
+}
+
+int main() {
+
+    // Representation of input binary search tree
+    //        5
+    //       / \
+    //      4   6
+    //     /     \
+    //    3       7
+    //   / 
+    //  1
+    Node* root = new Node(5);
+    root->left = new Node(4);
+    root->right = new Node(6);
+    root->left->left = new Node(3);
+    root->right->right = new Node(7);
+    root->left->left->left = new Node(1);
+
+    cout << minValue(root) << "\n";
+
+    return 0;
+}
+```
+## Output
+
+```
+1
+```
+
+Time Complexity: O(n), since we traversed through all the elements in a BST.
+Auxiliary Space: O(n), we are storing all the n nodes in an array.
+
+
+
+
 - [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
 - [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)
