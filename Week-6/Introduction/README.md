@@ -168,3 +168,5 @@ This week we shall only look at a few of these algorithms.
 - [0/1 Knapsack](../0%5C1%20Knapsack)
 - [Longest Common Subsequence (LCS)](../Longest%20Common%20Subsequence)
 - [Matrix Chain Multiplication](../Matrix%20Chain%20Multiplication)
+
+These four algorithms—Climbing Stairs, 0/1 Knapsack, Longest Common Subsequence (LCS), and Matrix Chain Multiplication—have been carefully chosen to cover the most fundamental dynamic programming patterns. Each represents a different class of DP problems: from simple recurrence and state transition (Climbing Stairs), to decision-based optimization (Knapsack), to two-dimensional comparisons (LCS), and finally, interval-based partitioning (Matrix Chain Multiplication). Mastering these equips you with the intuition and techniques needed to tackle the vast majority of DP problems you'll encounter in interviews, contests, or real-world optimization tasks.
