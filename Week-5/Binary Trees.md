@@ -410,29 +410,29 @@ Here are some useful binary tree problems that you can practice:
 
 ### Easy
 
-- [Same Tree](https://leetcode.com/problems/same-tree/description/)
-- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
-- [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
-- [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
-- [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
-- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
-- [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
+- [Same Tree](https://leetcode.com/problems/same-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/write-c-code-to-determine-if-two-trees-are-identical/?utm_source=chatgpt.com)
+- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/find-the-maximum-depth-or-height-of-a-tree/?utm_source=chatgpt.com)
+- [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/symmetric-tree-tree-which-is-mirror-image-of-itself/?utm_source=chatgpt.com)
+- [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/diameter-of-a-binary-tree/)
+- [Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/averages-levels-binary-tree/)
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | [Solution](https://www.geeksforgeeks.org/dsa/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/?utm_source=chatgpt.com)
+- [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/) | [Solution](https://www.geeksforgeeks.org/dsa/check-for-children-sum-property-in-a-binary-tree/?utm_source=chatgpt.com)
 
 ---
 
 ### Medium
 
-- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/)
-- [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)
-- [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)
-- [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/)
-- [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | [Solution](https://www.geeksforgeeks.org/dsa/zigzag-tree-traversal/?utm_source=chatgpt.com)
+- [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) | [Solution](https://www.geeksforgeeks.org/dsa/sum-numbers-formed-root-leaf-paths/)
+- [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/) | [Solution](https://algo.monster/liteproblems/437)
+- [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/description/) | [Solution](https://algo.monster/liteproblems/687)
+- [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | [Solution](https://www.geeksforgeeks.org/dsa/construct-tree-from-given-inorder-and-preorder-traversal/)
 
 ---
 
 ### Hard
-- [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
-- [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)
-- [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/)
+- [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | [Solution](https://www.geeksforgeeks.org/dsa/find-maximum-path-sum-in-a-binary-tree/)
+- [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/) | [Solution](https://www.geeksforgeeks.org/dsa/minimum-number-of-cameras-required-to-monitor-all-nodes-of-a-binary-tree/)
+- [Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/) | [Solution](https://algo.monster/liteproblems/2458)
 
 
