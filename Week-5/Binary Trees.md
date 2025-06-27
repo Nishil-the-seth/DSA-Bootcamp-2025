@@ -32,7 +32,7 @@ A binary tree in DSA (Data Structures and Algorithms) is a way to organize data 
 
 The basic idea of a binary tree is to have a parent-child relationship between nodes. Each node can have a left and a right child, and this pattern continues down the tree. This structure makes it easy to organize and find data quickly.
 
-![](src/img2)
+![](src/img2.png)
 
 ## Types of Binary Trees:
 - A balanced Binary Tree has at most 1 in difference between its left and right subtree heights, for each node in the tree.
@@ -108,7 +108,7 @@ class Node
 ```
 Here is an example in C++ for creating a Binary tree with four nodes:
 
-![](src/img6.png)
+![](src/img7.png)
 
 ```cpp
 #include <iostream>
@@ -155,7 +155,7 @@ Binary tree traversal refers to the process of visiting each node in a binary tr
 In an inorder traversal, the nodes are recursively visited in this order:
 **left subtree → root → right subtree**
 
-![](src/img7.png)
+![](src/img8.png)
 
 ```cpp
 void inorder(Node* node) {
