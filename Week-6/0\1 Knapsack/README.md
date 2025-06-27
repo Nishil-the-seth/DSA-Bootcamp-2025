@@ -6,7 +6,7 @@ Given n items where each item has some weight and profit associated with it and 
 
 ---
 
-## Native approach using Recursion
+## Naive approach using Recursion
 **Time complexity:** O(n x W)  
 **Space complexity:** O(n x W)  
 The maximum value obtained from 'n' items is the max of the following two values. 
