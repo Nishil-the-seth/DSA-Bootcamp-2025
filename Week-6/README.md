@@ -20,22 +20,22 @@ We’ll begin by understanding what makes a problem suitable for DP. We’ll exp
 This week focuses on 4 carefully selected DP problems:
 
 1. **Climbing Stairs** — Intro to DP and recurrence  
-   [Climbing Stairs Folder](./Climbing%20Stairs)
+   [Climbing Stairs](./Climbing%20Stairs)
 
 2. **0/1 Knapsack** — Classic decision-making DP  
-   [0/1 Knapsack Folder](./0%5C1%20Knapsack)
+   [0/1 Knapsack](./0%5C1%20Knapsack)
 
 3. **Longest Common Subsequence (LCS)** — 2D state transition  
-   [Longest Common Subsequence Folder](./Longest%20Common%20Subsequence)
+   [Longest Common Subsequence](./Longest%20Common%20Subsequence)
 
 4. **Matrix Chain Multiplication** — Interval DP and optimization  
-   [Matrix Chain Multiplication Folder](./Matrix%20Chain%20Multiplication)
+   [Matrix Chain Multiplication](./Matrix%20Chain%20Multiplication)
 
 ---
 
 ## Practice Problems
 
-Head over to the [Practice Folder](./Practice) for curated problems that reinforce the above algorithms.
+Head over to the [Practice](./Practice) for curated problems that reinforce the above algorithms.
 
 ---
 
