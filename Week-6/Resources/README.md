@@ -5,7 +5,7 @@ This folder contains all supplementary material for **Week 6: Dynamic Programmin
 
 You’ll find curated links to articles, videos and visualizations that reinforce the concepts covered during the week.
 
----
+
 
 - [GFG | DP I](https://www.geeksforgeeks.org/dynamic-programming/)
 - [GFG | DP II](https://www.geeksforgeeks.org/dsa/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
@@ -18,6 +18,5 @@ You’ll find curated links to articles, videos and visualizations that reinforc
 - [Video II](https://youtu.be/oBt53YbR9Kk?si=meXjwDAGVBDWlYK1)
 - [Video Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY)
 
----
 
 Feel free to contribute. If you find a helpful resource, add the link here to help others.
