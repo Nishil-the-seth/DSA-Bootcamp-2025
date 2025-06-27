@@ -9,12 +9,12 @@ Now, for a given chain of n matrices, the first partition can be done in n-1 way
 
 For n matrices M1, M2, ..... Mn. we can put the first bracket n-1 ways
 
-(M1) x (M2 x M3 x M4 ......... Mn-1 x Mn)
-(M1 x M2) x (M3 x M4.......... Mn-1 x Mn)
-(M1 x M2 x M3) x (M4 .......... Mn-1 x Mn)
-..............................................................................
-..............................................................................
-(M1 x M2 x M3 x M4 ..........Mn-1) x (Mn)
+(M1) x (M2 x M3 x M4 ......... Mn-1 x Mn)  
+(M1 x M2) x (M3 x M4.......... Mn-1 x Mn)  
+(M1 x M2 x M3) x (M4 .......... Mn-1 x Mn)  
+..............................................................................  
+..............................................................................  
+(M1 x M2 x M3 x M4 ..........Mn-1) x (Mn)  
 We put the first bracket at different n-1 places and then recursively call for the two parts. At the end, we return the minimum of all partitions.
 
 To write a recursive function we use a range of indexes [i, j].  And run a loop for k = i + 1 to j.  For k = i + 1, we put the first bracket after the first matrix which has dimensions arr[i] x arr[i+1] and before the remaining matrices which have dimensions arr[i+1] x arr[i+2],  arr[i+2] x arr[i+3], ........... arr[j-1] x arr[j]    
