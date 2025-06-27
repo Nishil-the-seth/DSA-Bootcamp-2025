@@ -155,8 +155,6 @@ Binary tree traversal refers to the process of visiting each node in a binary tr
 In an inorder traversal, the nodes are recursively visited in this order:
 **left subtree → root → right subtree**
 
-![](src/img8.png)
-
 ```cpp
 void inorder(Node* node) {
     if (node == nullptr)
@@ -166,15 +164,8 @@ void inorder(Node* node) {
     inorder(node->right);
 }
 ```
-The inOrderTraversal() function keeps calling itself with the current left child node as an argument (line 4) until that argument is None and the function returns (line 2-3).
-
-The first time the argument node is None is when the left child of node C is given as an argument (C has no left child).
-
-After that, the data part of node C is printed (line 5), which means that 'C' is the first thing that gets printed.
-
-Then, node C's right child is given as an argument (line 6), which is None, so the function call returns without doing anything else.
-
-After 'C' is printed, the previous inOrderTraversal() function calls continue to run, so that 'A' gets printed, then 'D', then 'R', and so on.
+You can view the animation for this traversal here : 
+https://www.w3schools.com/dsa/dsa_algo_binarytrees_inorder.php
 
 ---
 
