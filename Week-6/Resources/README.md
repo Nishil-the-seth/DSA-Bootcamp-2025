@@ -3,7 +3,7 @@
 
 This folder contains all supplementary material for **Week 6: Dynamic Programming** in the DSA Bootcamp 2025.
 
-You’ll find curated links to articles, videos, visualizations, and practice problems that reinforce the concepts covered during the week.
+You’ll find curated links to articles, videos and visualizations that reinforce the concepts covered during the week.
 
 ---
 
