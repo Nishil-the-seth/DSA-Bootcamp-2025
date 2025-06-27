@@ -7,8 +7,8 @@ Given n items where each item has some weight and profit associated with it and 
 ---
 
 ## Naive approach using Recursion
-**Time complexity:** O(n x W)  
-**Space complexity:** O(n x W)  
+**Time complexity:** O(2^n)  
+**Space complexity:** O(n)  
 The maximum value obtained from 'n' items is the max of the following two values. 
 
 - Case 1 (pick the nth item): Value of the nth item + maximum value obtained by remaining (n-1) items and remaining weight i.e. (W-weight of the nth item).
@@ -276,7 +276,7 @@ console.log(knapsack(W, val, wt));
 
 ## Using Tabulation
 **Time complexity:** O(n x W)  
-**Space complexity:** O(n x W)  
+**Space complexity:** O(W)  
 There are two parameters that change in the recursive solution and these parameters go from 0 to n and 0 to W. So we create a 2D dp[][] array of size (n+1) x (W+1), such that dp[i][j] stores the maximum value we can get using i items such that the knapsack capacity is j.
 
 - We first fill the known entries when m is 0 or n is 0.
