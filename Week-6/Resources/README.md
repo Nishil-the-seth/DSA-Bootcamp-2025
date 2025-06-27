@@ -16,7 +16,7 @@ You’ll find curated links to articles, videos, visualizations, and practice pr
 - [GFG | Matrix Chain Multiplication](https://www.geeksforgeeks.org/dsa/matrix-chain-multiplication-dp-8/)
 - [Video I](https://youtu.be/vYquumk4nWw?si=aUgY_yJgviZlb4dF)
 - [Video II](https://youtu.be/oBt53YbR9Kk?si=meXjwDAGVBDWlYK1)
-- [Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY)
+- [Video Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY)
 
 ---
 
