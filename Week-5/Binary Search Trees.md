@@ -287,7 +287,7 @@ Auxiliary Space: O(n), we are storing all the n nodes in an array.
 ## Hard
 - [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/description/)  | [Solution](https://www.geeksforgeeks.org/maximum-sub-tree-sum-in-a-binary-tree-such-that-the-sub-tree-is-also-a-bst/?utm_source=chatgpt.com)
 - [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst?envType=problem-list-v2&envId=binary-tree)  | [Solution](https://algo.monster/liteproblems/1569)
-- - [Merge BSTs to create a single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst?envType=problem-list-v2&envId=binary-tree) | [Solution](https://algo.monster/liteproblems/1932?utm_source=chatgpt.com)
+- [Merge BSTs to create a single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst?envType=problem-list-v2&envId=binary-tree) | [Solution](https://algo.monster/liteproblems/1932?utm_source=chatgpt.com)
 
 
 
