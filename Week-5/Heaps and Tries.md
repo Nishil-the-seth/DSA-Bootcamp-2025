@@ -439,5 +439,26 @@ Providing real-time suggestions by matching typed prefixes with stored words.
 3. Spell Checker
 Identifying whether a word is valid and suggesting possible alternatives.
 
+# Heap & Trie Problems
+
+### Easy
+- [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [Solution](https://www.geeksforgeeks.org/kth-largest-element-in-a-stream/)
+- [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Solution](https://www.geeksforgeeks.org/last-stone-weight/)
+- [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://www.geeksforgeeks.org/trie-insert-and-search/)
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Solution](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
+
+  
+### Medium
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Solution](https://www.geeksforgeeks.org/find-k-numbers-occurrences-given-array/)
+- [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Solution](https://www.geeksforgeeks.org/merge-k-sorted-arrays/)
+- [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://www.geeksforgeeks.org/trie-insert-and-search/#wildcard-search)
+- [Word Search II](https://leetcode.com/problems/word-search-ii/) | [Solution](https://algowalkers.medium.com/boggle-find-possible-words-in-a-board-of-characters-using-trie-83d6b42a7916)
+
+
+### Hard
+- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
+- [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Solution](https://algowalkers.medium.com/the-skyline-problem-4f6df8fea5bb)
+- [Maximum XOR of Two Numbers](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | [Solution](https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/)
+- [Concatenated Words](https://leetcode.com/problems/concatenated-words/) | [Solution](https://algowalkers.medium.com/concatenated-words-trie-dfs-solution-10f073fc9f9b)
 
 
