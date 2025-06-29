@@ -4,7 +4,7 @@ Welcome to Week 6 of the DSA Bootcamp 2025! After covering foundational topics l
 
 This week, we will focus on understanding, identifying, and applying DP techniques to solve complex problems efficiently.
 
----
+
 
 ## Topics Covered
 
@@ -13,7 +13,7 @@ We’ll begin by understanding what makes a problem suitable for DP. We’ll exp
 
 **Start here**: [Introduction](./Introduction)
 
----
+
 
 ## Core DP Algorithms (Increasing Difficulty)
 
@@ -31,19 +31,19 @@ This week focuses on 4 carefully selected DP problems:
 4. **Matrix Chain Multiplication** — Interval DP and optimization  
    [Matrix Chain Multiplication](./Matrix%20Chain%20Multiplication)
 
----
+
 
 ## Practice Problems
 
 Head over to the [Practice](./Practice) for curated problems that reinforce the above algorithms.
 
----
+
 
 ## Additional Resources
 
 Supplementary resources are in the [Resources Folder](./Resources).
 
----
+
 
 ## Final Notes
 
