@@ -463,7 +463,7 @@ int main() {
 }
 ```
 To learn more refer to these:
-https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/
-https://www.w3schools.com/dsa/dsa_data_avltrees.php
+- https://www.geeksforgeeks.org/dsa/introduction-to-avl-tree/
+- https://www.w3schools.com/dsa/dsa_data_avltrees.php
 
 
