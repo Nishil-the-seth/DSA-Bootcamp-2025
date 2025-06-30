@@ -59,7 +59,7 @@ To maintain balance, AVL Trees use **four types of rotations**:
 - If the balance factor is less than -1, then the current node is unbalanced and we are either in the Right Right case or Right-Left case. To check whether it is the Right Right case or not, compare the newly inserted key with the key in the right subtree root.
 
 
-## C++ Implementation
+### C++ Implementation
 
 ```cpp
 #include <iostream>
@@ -189,7 +189,7 @@ int main() {
 | Delete    | O(log n)         |
 
 ---
-## C++ Implementation
+### C++ Implementation
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
