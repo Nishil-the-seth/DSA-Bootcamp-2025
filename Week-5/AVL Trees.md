@@ -25,17 +25,21 @@ Balancing is maintained through **rotations** that occur during insertions and d
 
 To maintain balance, AVL Trees use **four types of rotations**:
 
-### 1. Right Rotation (LL Rotation)
-Used when a node is inserted into the **left subtree of the left child**.
+### 1. Left Left Rotation (LL Rotation)
+- Occurs when a node is inserted into the right subtree of the right child, causing the balance factor to become less than 1.
+- Fix: Perform a single left rotation.
 
-### 2. Left Rotation (RR Rotation)
-Used when a node is inserted into the **right subtree of the right child**.
+### 2. Right Right Rotation (RR Rotation)
+- Occurs when a node is inserted into the left subtree of the left child, making the balance factor greater than +1.
+- Fix: Perform a single right rotation
 
 ### 3. Left-Right Rotation (LR Rotation)
-Used when a node is inserted into the **right subtree of the left child**.
+- Occurs when a node is inserted into the right subtree of the left child, which disturbs the balance factor of an ancestor node, making it left-heavy.
+- Fix: Perform a left rotation on the left child, followed by a right rotation on the node.
 
 ### 4. Right-Left Rotation (RL Rotation)
-Used when a node is inserted into the **left subtree of the right child**.
+- Occurs when a node is inserted into the left subtree of the right child, which disturbs the balance factor of an ancestor node, making it right-heavy.
+- Fix: Perform a right rotation on the right child, followed by a left rotation on the node.
 
 ---
 
