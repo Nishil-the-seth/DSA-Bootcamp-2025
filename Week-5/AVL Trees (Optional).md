@@ -7,10 +7,11 @@ Balancing is maintained through **rotations** that occur during insertions and d
 ---
 
 Example of an AVL Tree:
-![](src/image1.png)
+
+![](src/imagee1.png)
 
 Example of a Binary Search Tree which is NOT an AVL Tree:
-![](src/image2.png)
+![](src/imagee2.png)
 
 ## Properties
 
