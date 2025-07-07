@@ -18,5 +18,3 @@ You’ll find curated links to articles, videos and visualizations that reinforc
 - [Video II](https://youtu.be/oBt53YbR9Kk?si=meXjwDAGVBDWlYK1)
 - [Video Playlist](https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY)
 
-
-Feel free to contribute. If you find a helpful resource, add the link here to help others.
